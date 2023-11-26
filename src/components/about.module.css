@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.cont{
+    background-color: #031538;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+h1{
+    padding-top: 5rem;
+    color:white;
+}
+
+.cont p{
+    color:white;
+    text-align: center;
+    padding-bottom: 5rem;
+
+}
+
+.about{
+    width:50rem;
+    
+    
+}
+
+
+@media (max-width:807px){
+    .about{
+        width:35rem;
+    }
+}
+
+@media (max-width:575px){
+    .about{
+        width:20rem;
+    }
+    
+    
+}

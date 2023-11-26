@@ -1,0 +1,49 @@
+.main_nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:8px;
+    background-color: brown;
+}
+
+.main_nav img{
+    width:70px;
+    
+    height:70px;
+    border-radius:100px;
+
+
+    
+}
+
+.menu{
+    display:flex;
+    gap:16px;
+}
+
+.li{
+    padding:16px;
+    text-decoration: none;
+    list-style: none;
+    color:aliceblue;
+    margin-left: 20px;
+}
+
+
+
+
+
+@media (max-width:600px){
+
+    .main_nav{
+        flex-direction:column;
+        gap:16px;
+    }
+
+    .li{
+        padding:4px;
+        margin-left: 0;
+    }
+}
+
+

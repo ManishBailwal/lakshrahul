@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    background-color: white;
+    width:80%;
+    height:32rem;
+    
+    margin-top:3rem;
+    margin-left:3rem;
+    margin-right: 3rem;
+    margin-bottom:3rem;
+    border-top:5px solid blue;
+    
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.5);
+
+
+}
+
+.container h2{
+    font-size:2rem;
+    height:auto;
+    text-align: center;
+
+}
+
+.input-name{
+    width:90%;
+    
+    position:relative;
+    margin:20px auto;
+
+
+}
+
+.container input{
+    width:70%;
+    border-radius: 5px;
+    height:2rem;
+    
+}
+
+.container label{
+    font-size:1.2rem;
+}
+
+
+
+
+.btn-container{
+    
+    text-align:center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    padding-top:1rem;
+    
+    
+    
+}
+
+.button{
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color:white;
+    background-color: orangered;
+    
+    
+    
+    
+
+}
+
+.state{
+    font-size:1rem;
+}
